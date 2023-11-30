@@ -1,0 +1,71 @@
+body {
+    background: #11131e;
+    font-family: 'Lato', sans-serif;
+    display: grid;
+ }
+ p {
+    height: 21px;
+     /* width: auto; */
+     margin: 0;
+ }
+ 
+  
+.calculator {
+    width: 220px;
+    height: 430px;
+    background: #434348;
+    border-radius: 25px;
+    position: absolute;
+    margin: auto;
+    top: 50%;
+    margin-top: -215px;
+    left: 50%;
+    margin-left: -110px;
+}
+
+
+button {
+    border: none;
+    background: none;
+    color: dimgrey;
+    font-size: 25px;
+    outline: none;
+    cursor: pointer;
+ }
+ .Equal {
+    position: absolute;
+    bottom: 25px;
+    right: 30px;
+ }
+ 
+ .Equal button {
+    background: rgb(242, 126, 63);
+    color: #fff;
+    /* width: 30px; */
+    border-radius: 8px;
+    width: 40px;
+    font-size: 20px;
+    height: 40px;
+ }
+ 
+ ._numbers {
+     display: flex;
+     justify-content: space-between;
+     /* grid-template-rows: 10px 30px; */
+     width: 80%;
+     /* background-color: red; */
+     /* font-size: 80px; */
+     flex-flow: row wrap;
+     margin: auto;
+ }
+ 
+ ._numbers button {
+    width: 30%;
+    height: 53px;
+    transition: all .2s ease-in-out;
+ }
+ 
+ ._numbers button:hover {
+    color: rgb(242, 126, 63);
+ }
+ 
